@@ -1,0 +1,41 @@
+/* removing all margins and paddings.*/
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+
+html { 
+  font-family: sans-serif;
+}
+
+/* adding the background gradient */
+body{ 
+  background: linear-gradient(to right, #2c5364, #203a43);
+}
+
+/* if we are going to have multiple cards we may not want to center*/
+.App{ 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{ 
+  background: white;
+  padding: 3rem 5rem;
+  margin: 0.5rem; 
+}
+
+card p{ 
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.expand { 
+  width: auto;
+  max-width: 600px;
+  overflow: auto;
+}
